@@ -1,0 +1,53 @@
+body{
+background-color: rgba(240, 248, 255, 0.596);
+}
+
+
+.leftside{
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    left: 10px;
+    background: #65ece8;
+    overflow-x: hidden;
+    padding: 8px 0;  
+    height: 100%;
+}
+
+.rightside{
+    margin-left: 20%; /* Same width as the sidebar + left position in px */
+    font-size: 18px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+.spanColor{
+    background-color: black;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:01%;
+    border-radius: 50%;
+}
+
+.nameStyle{
+    margin: 0.5%;
+    background-color:  rgba(211, 229, 245, 0.781);
+    box-shadow: 5px 6px 16px 0px;
+    padding-right: 10px;
+    padding: 1% 1% 1%;
+}
+
+.profileStyle{
+    height: auto;
+}
+
+.Name{
+    font-family: serif;
+    font-size: 50px;
+}
+
+
+
