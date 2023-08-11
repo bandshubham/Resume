@@ -1,5 +1,6 @@
 body{
 background-color: rgba(240, 248, 255, 0.596);
+font-family: Arial, sans-serif;
 }
 
 
@@ -8,9 +9,7 @@ background-color: rgba(240, 248, 255, 0.596);
     position: fixed;
     z-index: 1;
     left: 10px;
-    background: #65ece8;
-    overflow-x: hidden;
-    padding: 8px 0;  
+    overflow-x: hidden; 
     height: 100%;
 }
 
@@ -29,6 +28,7 @@ img {
     align-items: center;
     justify-content: center;
     padding:01%;
+    padding-left: 10%;
     border-radius: 50%;
 }
 
@@ -46,8 +46,16 @@ img {
 
 .Name{
     font-family: serif;
-    font-size: 50px;
+    font-size: 30px;
 }
 
-
-
+.skill-badge {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
